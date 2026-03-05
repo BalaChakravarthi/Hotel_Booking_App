@@ -42,6 +42,9 @@ INSTALLED_APPS = [
     'accounts',
     'rooms',
     'bookings',
+    # 'accounts.apps.AccountsConfig',
+    # 'bookings.apps.BookingsConfig',
+    # 'rooms.apps.RoomsConfig',
 ]
 import os
 
