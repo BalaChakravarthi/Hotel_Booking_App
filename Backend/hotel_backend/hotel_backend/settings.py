@@ -63,9 +63,9 @@ REST_FRAMEWORK = {
 AUTH_USER_MODEL = 'accounts.User'
 
 MIDDLEWARE = [
-    "corsheaders.middleware.CorsMiddleware",  
-    'whitenoise.middleware.WhiteNoiseMiddleware',
+    "corsheaders.middleware.CorsMiddleware",
     "django.middleware.common.CommonMiddleware",
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -75,7 +75,9 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 CORS_ALLOWED_ORIGINS = [
+    "https://hotelbookingapp-mu.vercel.app",
     "https://hotelbookingapp-git-main-bala-chakravarthis-projects.vercel.app",
+    "https://hotelbooking-7uacqdnpp-bala-chakravarthis-projects.vercel.app"
 ]
 CORS_ALLOW_ALL_ORIGINS = True
 ROOT_URLCONF = 'hotel_backend.urls'
