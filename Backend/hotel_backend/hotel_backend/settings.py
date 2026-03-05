@@ -75,7 +75,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 CORS_ALLOWED_ORIGINS = [
-    "https://hotelbookingapp-mu.vercel.app",
+    "https://hotelbookingapp-git-main-bala-chakravarthis-projects.vercel.app",
 ]
 CORS_ALLOW_ALL_ORIGINS = True
 ROOT_URLCONF = 'hotel_backend.urls'
