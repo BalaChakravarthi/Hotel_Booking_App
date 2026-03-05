@@ -61,6 +61,7 @@ AUTH_USER_MODEL = 'accounts.User'
 
 MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",  
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     "django.middleware.common.CommonMiddleware",
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
